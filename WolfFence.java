@@ -9,7 +9,7 @@ public class WolfFence {
 
         // Read points from the input file
         try {
-            points = readPointsFromFile("lamar_valley_gps_points.txt"); // File path to the dataset
+            points = readPointsFromFile("wolf_sightings_1000000.txt"); // File path to the dataset
         } catch (IOException e) {
             System.err.println("Error reading file: " + e.getMessage());
             return;
