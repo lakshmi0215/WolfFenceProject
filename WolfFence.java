@@ -36,6 +36,7 @@ public class WolfFence {
         System.out.println("Convex Hull Computation Time: " + (hullEnd - hullStart) / 1e6 + " ms");
         System.out.println("Fence Length Calculation Time: " + (lengthEnd - lengthStart) / 1e6 + " ms");
         System.out.println("Total Execution Time: " + (endTime - startTime) / 1e6 + " ms");
+        System.out.println("points size:"+ points.size());
     }
 
     /**
